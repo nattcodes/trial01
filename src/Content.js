@@ -11,7 +11,7 @@ const Content = ({ colorValue, setColorValue}) => {
         <form className='colorForm' onSubmit={(e) => e.preventDefault()}>
             <input
                 type="text"
-                placeholder='Add color name'
+                placeholder='add color name'
                 required
                 value={colorValue}
                 onChange={(e) => setColorValue(e.target.value)}
