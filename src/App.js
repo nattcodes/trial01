@@ -2,7 +2,7 @@ import { useState } from "react"
 import Content from "./Content"
 
 function App() {
-    const [colorValue, setColorValue] = useState('')
+    const [colorValue, setColorValue] = useState('blue')
     return ( <
         Content colorValue = { colorValue }
         setColorValue = { setColorValue }
